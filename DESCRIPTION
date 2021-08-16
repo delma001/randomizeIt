@@ -6,6 +6,8 @@ Author: Robert delMas
 Maintainer: Robert delMas <delma001@umn.edu>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: NONE
 Encoding: UTF-8
 LazyData: true
+Imports:
+    shiny, grid), gridExtra, shiny, shinydashboard, shinythemes, BHH2, dplyr, dipsaus, mosaic
