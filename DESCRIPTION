@@ -11,7 +11,7 @@ Encoding: UTF-8
 LazyData: true
 Imports:
     shiny, 
-    grid), 
+    grid, 
     gridExtra, 
     shiny, 
     shinydashboard, 
