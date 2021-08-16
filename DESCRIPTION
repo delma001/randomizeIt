@@ -4,10 +4,19 @@ Title: Randomization Methods for 5261
 Version: 0.1.0
 Author: Robert delMas
 Maintainer: Robert delMas <delma001@umn.edu>
-Description: More about what it does (maybe more than one line)
+Description: More about what it does (may be more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: NONE
 Encoding: UTF-8
 LazyData: true
 Imports:
-    shiny, grid), gridExtra, shiny, shinydashboard, shinythemes, BHH2, dplyr, dipsaus, mosaic
+    shiny, 
+    grid), 
+    gridExtra, 
+    shiny, 
+    shinydashboard, 
+    shinythemes, 
+    BHH2, 
+    dplyr, 
+    dipsaus, 
+    mosaic
