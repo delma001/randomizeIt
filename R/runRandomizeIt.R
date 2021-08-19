@@ -1,5 +1,5 @@
 #' @export
-runExample <- function() {
+runRandomizeIt <- function() {
   appDir <- system.file("shinyApp", package = "randomizeIt")
   if (appDir == "") {
     stop("Could not find example directory. Try re-installing `mypackage`.", call. = FALSE)
