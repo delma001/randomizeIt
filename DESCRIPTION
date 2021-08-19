@@ -12,14 +12,10 @@ LazyData: true
 RoxygenNote: 7.1.1
 Imports:
     BHH2,
-    dplyr,
     dipsaus,
-    grid,
-    gridExtra,
     mosaic,
     shiny,
-    shinydashboard,
-    shinythemes
+    shinydashboard
 
 
 
