@@ -1,23 +1,25 @@
 Package: randomizeIt
 Type: Package
-Title: Randomization Methods for 5261
+Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Robert delMas
-Maintainer: Robert delMas <delma001@umn.edu>
-Description: More about what it does (may be more than one line)
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: NONE
+License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Imports:
-    shiny, 
-    grid, 
-    gridExtra, 
-    shiny, 
-    shinydashboard, 
-    shinythemes, 
-    BHH2, 
-    dplyr, 
-    dipsaus, 
-    mosaic
 RoxygenNote: 7.1.1
+Imports:
+    BHH2,
+    dplyr,
+    dipsaus,
+    grid,
+    gridExtra,
+    mosaic,
+    shiny,
+    shinydashboard,
+    shinythemes
+
+
+
