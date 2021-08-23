@@ -2,14 +2,14 @@ Package: randomizeIt
 Type: Package
 Title: Randomization Methods for Bootstrapping and Hypothesis Testing
 Version: 0.1.0
-Author: Robert delMas
-Maintainer: delma001@umn.edu
-Description:     This package provides a shiny app that implements methods to estimate bootstrap confidence intervals and estimate p-values using randomiztion methods.
-    Contexts that can be modeled are: 
-    (1) one-sample situations where there is a single categorical or quantitative response variable
-    (2) two-sample situations with either a categorical or quantitative response variable and a categorical explanatory variable that identifies only two groups.
-    Controls are provided for importing data files in CSV format.
-    
+Authors@R: person("Robert", "delMas", email = "delma001@umn.edu", role = c("aut", "cre"))
+Description: This package provides a shiny app that implements methods to estimate 
+             bootstrap confidence intervals and estimate p-values using randomiztion 
+             methods. Contexts that can be modeled are: (1) one-sample situations where 
+             there is a single categorical or quantitative response variable 
+             (2) two-sample situations with either a categorical or quantitative response 
+             variable and a categorical explanatory variable that identifies only two groups.
+             Controls are provided for importing data files in CSV format.
 License: NONE
 Encoding: UTF-8
 LazyData: true
