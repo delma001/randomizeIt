@@ -74,7 +74,7 @@ server = function(input, output, session){
             n1 = as.numeric(table(explainVar)[1])
             theReplace = ifelse(input$randomMethod == "Reassign", FALSE, TRUE)
 
-            v = do(input$numberSamples) * resample(responseVar, replace = theReplace)
+            v = mosaic::do(input$numberSamples) * mosaic::resample(responseVar, replace = theReplace)
             mean1 = rowMeans(v[, 1:n1])
             mean2 = rowMeans(v[, (n1 + 1):N])
             if(input$explRefGroup == levels(explainVar)[1]){
@@ -113,7 +113,7 @@ server = function(input, output, session){
             v$stat = as.numeric(v$stat)
           }
           else{ # One-Sample TEST Categorical
-            v = do(input$numberSamples) * {prop = rbinom(n = 1, size = N, prob = input$nullMean)
+            v = mosaic::do(input$numberSamples) * {prop = rbinom(n = 1, size = N, prob = input$nullMean)
             c(prop, rep(input$respRefGroup, prop), rep(respOthGroup, (N - prop)))}
             v = as.data.frame(v)
             names(v)[1] = "stat"
